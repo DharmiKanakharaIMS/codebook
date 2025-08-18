@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import Search from './Search'
 import DropdownLoggedIn from './DropdownLoggedIn'
 import DropdownLoggedOut from './DropdownLoggedOut'
-import { useCart } from '../context/cartContext'
+import { useCart } from '../context/CartContext'
 
 function Header() {
     const [dark, setdark] = useState(JSON.parse(localStorage.getItem("darkMode")) || false)
