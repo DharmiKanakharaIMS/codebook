@@ -1,7 +1,7 @@
 import React from 'react'
 import OrderSuccess from './OrderSuccess'
 import OrderFail from './OrderFail'
-import { data, useLocation } from 'react-router-dom'
+import {  useLocation } from 'react-router-dom'
 import useTitle from '../../hooks/useTitle'
 
 function OrderPage() {

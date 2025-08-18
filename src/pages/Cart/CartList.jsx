@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CartCard from './CartCard'
 import Checkout from './Checkout'
-import { useCart } from '../../context/cartContext'
+import { useCart } from '../../context/CartContext'
 
 function CartList() {
   

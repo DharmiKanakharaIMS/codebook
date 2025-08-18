@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useCart } from '../../context/cartContext'
+import { useCart } from '../../context/CartContext'
 import { useNavigate } from 'react-router-dom'
 import { createOrder, getUser } from '../../services/dataService'
 import { toast } from 'react-toastify'

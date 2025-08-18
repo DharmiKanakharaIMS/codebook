@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Rating from '../components/Rating'
-import { useCart } from '../context/cartContext'
+import { useCart } from '../context/CartContext'
 import { useEffect, useState } from 'react'
 
 function ProductCard({product}) {
