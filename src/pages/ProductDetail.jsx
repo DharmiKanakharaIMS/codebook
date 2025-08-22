@@ -1,7 +1,7 @@
   import {useState,useEffect} from  'react'
   import { useParams } from 'react-router-dom'
+  import useTitle from '../hooks/useTitle'
   import Rating from '../components/Rating'
-import useTitle from '../hooks/useTitle'
 import { getProduct } from '../services/productService'
 import { useCart } from '../context/CartContext'
 import { toast } from 'react-toastify'
