@@ -2,8 +2,8 @@
   import { useParams } from 'react-router-dom'
   import Rating from '../components/Rating'
 import useTitle from '../hooks/useTitle'
-import { useCart } from '../context/CartContext'
 import { getProduct } from '../services/productService'
+import { useCart } from '../context/CartContext'
 import { toast } from 'react-toastify'
 
   function ProductDetail() {
