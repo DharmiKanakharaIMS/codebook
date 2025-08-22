@@ -25,8 +25,8 @@ function Login() {
   }
 
    const handleLoginGuest = async () => {
-    email.current.value = "dharmi@gmail.com";
-    password.current.value = "12345678";
+    email.current.value = import.meta.env.VITE_GUEST_LOGIN;
+    password.current.value = import.meta.env.VITE_GUEST_PASSWORD;
     try {
       const res = await login({
         email: email.current.value,
